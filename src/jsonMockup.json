@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "1",
+        "label": "AraC",
+        "type": "something"
+      }
+    },
+    {
+      "data": {
+        "id": "2",
+        "label": "AraE",
+        "type": "something"
+      }
+    },
+    {
+      "data": {
+        "id": "3",
+        "label": "AraJ",
+        "type": "something"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "e1",
+        "source": "1",
+        "target": "2",
+        "type": "example1"
+      }
+    },
+    {
+      "data": {
+        "id": "e2",
+        "source": "1",
+        "target": "3",
+        "type": "example2"
+      }
+    }
+  ]
+}

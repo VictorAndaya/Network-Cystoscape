@@ -1,0 +1,67 @@
+[
+  {
+    "selector": "node",
+    "style": {
+      "backgroundColor": "yellow",
+      "width": 50,
+      "height": 50,
+      "label": "data(label)",
+      "overlay-padding": "6px",
+      "z-index": "10",
+      "text-outline-color": "#4a56a6",
+      "text-outline-width": "2px",
+      "color": "white",
+      "fontSize": 20,
+      "text-valign": "center",
+      "text-halign": "center"
+    }
+  },
+  {
+    "selector": "node:selected",
+    "style": {
+      "border-width": "6px",
+      "border-color": "#AAD8FF",
+      "border-opacity": "0.5",
+      "background-color": "#77828C",
+      "width": 50,
+      "height": 50,
+      "text-outline-color": "#77828C",
+      "text-outline-width": 8
+    }
+  },
+  {
+    "selector": "edge",
+    "style": {
+      "width": 3,
+      "line-color": "green",
+      "target-arrow-color": "#6774cb",
+      "target-arrow-shape": "triangle",
+      "curve-style": "bezier"
+    }
+  },
+  {
+    "selector": "edge:selected",
+    "style": {
+      "width": 10,
+      "height": 10
+    }
+  },
+  {
+    "selector": "edge[type='blue']",
+    "style": {
+      "line-color": "blue"
+    }
+  },
+  {
+    "selector": "edge[type='red']",
+    "style": {
+      "line-color": "red"
+    }
+  },
+  {
+    "selector": "edge[type='green']",
+    "style": {
+      "line-color": "green"
+    }
+  }
+]
